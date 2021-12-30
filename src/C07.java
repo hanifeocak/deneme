@@ -1,4 +1,5 @@
 public class C07 {
+
   /*  Ugly Number:
 
     Girilen bir sayının  ugly number olup olmadığını kontrol etmek için bir Java programı yazın.
