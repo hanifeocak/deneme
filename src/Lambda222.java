@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.Optional;
 import java.util.Scanner;
 
-public class deneme2 {
+public class Lambda222 {
     static Scanner scanner = new Scanner(System.in);
     static List<Integer> list = new ArrayList<>();
 
@@ -51,25 +51,25 @@ switch (secim){
         menu();
         break;
     case 2:
-     list.stream().filter(deneme2::ciftEl).map(t-> t*t).forEach(t-> System.out.println(t+" "));
+     list.stream().filter(Lambda222::ciftEl).map(t-> t*t).forEach(t-> System.out.println(t+" "));
         System.out.println("devam etmek icin bir tusa basiniz");
         scanner.nextLine();
         menu();
         break;
     case 3:
-        list.stream().filter(deneme2::tekEl).map(t-> t*t*t).forEach(t-> System.out.println(t+" "));
+        list.stream().filter(Lambda222::tekEl).map(t-> t*t*t).forEach(t-> System.out.println(t+" "));
         System.out.println("devam etmek icin bir tusa basiniz");
         scanner.nextLine();
         menu();
         break;
     case 4:
-        list.stream().filter(deneme2 ::ciftEl).map(t->t*t*t).forEach(t-> System.out.println(t+" "));
+        list.stream().filter(Lambda222::ciftEl).map(t->t*t*t).forEach(t-> System.out.println(t+" "));
          System.out.println("devam etmek icin bir tusa basiniz");
         scanner.nextLine();
         menu();
         break;
     case 5:
-    list.stream().filter(deneme2::tekEl).sorted().forEach(t-> System.out.println(t+" "));
+    list.stream().filter(Lambda222::tekEl).sorted().forEach(t-> System.out.println(t+" "));
         System.out.println("devam etmek icin bir tusa basiniz");
         scanner.nextLine();
         menu();
