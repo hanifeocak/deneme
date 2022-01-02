@@ -1,0 +1,6 @@
+package ProjePractice;
+class ogrenci{
+
+
+}
+
