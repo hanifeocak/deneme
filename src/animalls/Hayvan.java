@@ -1,4 +1,4 @@
-package Hayvanlar;
+package animalls;
 
 public class Hayvan {
  private String isim;
@@ -17,7 +17,7 @@ public void yemek_ye(){
 }
  public void harekete_gec(int hiz){
   System.out.println();
-  System.out.println("Hayvan "+hiz+"ile kosuyor..");
+  System.out.println("Hayvanlar " +hiz+"ile kosuyor..");
 
  }
 

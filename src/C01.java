@@ -2,15 +2,18 @@ import java.util.Scanner;
 
 public class C01 {
 
+
+
+
     /*
-        1---Sayının Sayı değerlerinin toplamasını yapan Java kodu yazınız.
+            1---Sayının Sayı değerlerinin toplamasını yapan Java kodu yazınız.
 
-        Test Data
-        34
-        Beklenen Çıktı
-          7
+            Test Data
+            34
+            Beklenen Çıktı
+              7
 
-     */
+         */
     public static void main(String[] args) {
         Scanner scan=new Scanner(System.in);
         System.out.println("Lutfen bir sayi giriniz");

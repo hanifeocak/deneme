@@ -1,4 +1,4 @@
-package Hayvanlar;
+package animalls;
 
 
     public class Kopek extends Hayvan{
